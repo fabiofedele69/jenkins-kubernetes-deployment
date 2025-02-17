@@ -13,7 +13,7 @@ pipeline {
             steps {
                 script {
                     git branch: 'main',
-                        credentialsId: 'Github-credentials',
+                        credentialsId: 'GitHub-credentials',
                         url: 'https://github.com/fabiofedele69/jenkins-kubernetes-deployment.git'
                 }
             }
